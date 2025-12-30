@@ -1,0 +1,25 @@
+{
+  "resourceType" : "BloodPressureModel",
+  "id" : "blood-pressure-123",
+  "patient" : {
+    "reference" : "Patient/pat1"
+  },
+  "performed" : "2021-11-24",
+  "position" : {
+    "system" : "http://snomed.info/sct",
+    "code" : "163033001",
+    "display" : "Lying blood pressure"
+  },
+  "systolic": {
+    "value" : 120,
+    "unit" : "mmHg",
+    "system" : "http://unitsofmeasure.org",
+    "code" : "mm[Hg]"
+  },
+  "diastolic": {
+    "value" : 80,
+    "unit" : "mmHg",
+    "system" : "http://unitsofmeasure.org",
+    "code" : "mm[Hg]"
+  }
+}

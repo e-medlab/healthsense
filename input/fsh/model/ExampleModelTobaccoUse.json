@@ -1,0 +1,13 @@
+{
+  "resourceType" : "TobaccoUseModel",
+  "id" : "tobacco-use-123",
+  "patient" : {
+    "reference" : "Patient/pat1"
+  },
+  "effectiveTime" : "2021-11-24",
+  "value" : {
+    "system" : "https://healthsense.taltech.ee/CodeSystem/hs-tobacco-user",
+    "code" : "81703003",
+    "display" : "Chews tobacco"
+  }
+}

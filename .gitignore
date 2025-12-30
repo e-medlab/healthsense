@@ -1,16 +1,49 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+# Temporary folders #
+#####################
+temp
+template
+output
+fsh-generated
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+# Don't commit this because it's so large #
+###########################################
+/input-cache
 
-# Book build output
-_book
+# Windows generated files #
+###########################
+Thumbs.db
 
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+**/.index.json
+
+# backup files #
+################
+*.bak
+
+# java settings 
+################
+
+
+.vscode/
+.idea/
+.idea/*
+
+# word #
+########
+~$*
+
+
+# emacs #
+#########
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+.swp
