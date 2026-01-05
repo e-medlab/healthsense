@@ -6,5 +6,5 @@
 Please find history of the release packages on the official [Download page](https://fhir.ee/history.html).
 
 ### Source
-You can download the source code of Implementation Guide from [Github](https://gitlab.com/kodality/ig/ig-healthsense).
+You can download the source code of Implementation Guide from [Github](https://github.com/e-medlab/healthsense).
 Follow standard [Pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) procedure to propose your changes.

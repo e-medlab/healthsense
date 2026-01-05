@@ -4,7 +4,7 @@ Id: tobacco-use-model
 * patient 1..1 Reference(Patient) "Patient" "Subject of procedure." 
 * effectiveTime 1..1 dateTime "Effective time" "When the observation was measured." 
 * value 1..1 Coding "The actual coded result of observation." "" 
-* value from https://ig.kodality.dev/healthsense/ValueSet-hs-tobacco-user.json (required) 
+* value from HsTobaccoUser (required) 
 * note 0..1 string "Comments about the observation" "Comments about the observation or the results."
 
 /*
